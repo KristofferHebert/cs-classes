@@ -1,0 +1,12 @@
+Which is true of python...
+
+	list, dict and primatives are immutable.
+
+Which is true of c++
+	C++ classes support the concept of “sending a message” to an object.
+
+What is true of java abstract class
+	An abstract class does not allow objects of its prototype to be created.
+
+Which of the following statements best describes decoupling in object-oriented programming?
+Manipulation of an object is kept separate from its implementation. CorrectManipulation of an object is accomplished via setter methods, which hide the implementation of the object from code outside the class.
