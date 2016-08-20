@@ -1,0 +1,21 @@
+The notation used to write relational and logical expressions in Java is
+infix
+
+Explain how the expression (x <= y) && (y <= z)is evaluated.
+
+First x <= y is evaluated, and then y <= z is evaluated if and only if x <= y is true.
+
+
+Suppose that the expression
+
+
+!(a < b || !((b < c) || (c < d)))
+
+is rewritten as an expression that does not use the negation operator. Fill in the blanks with the appropriate relational and logical operators by dragging the correct answers onto the image.
+
+a >= b && ( ( b < c ) || ( c < d ) )
+
+Which of the following expressions is equivalent to !(x > 5 && y > 3)?
+The correct answer is: x <= 5 || y <= 3
+
+
