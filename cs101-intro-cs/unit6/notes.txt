@@ -1,0 +1,13 @@
+Upon successful completion of this course, you will be able to:
+
+write methods with zero or more parameters.
+make method calls.
+use exception handling techniques.
+discuss the Java I/O package.
+read and write data from/to an external file.
+
+void is the name of a function that does not return a value
+
+double is a int with a decible point like 1.4
+
+
