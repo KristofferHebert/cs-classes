@@ -1,0 +1,21 @@
+
+What is true about java classes and java files
+- A .class file contains byte code for a class and is produced by the compiler.
+
+Which of the following statements is true about importing libraries in Java?
+-It does not matter which order libraries are imported.
+
+what is final
+-same as constant
+
+Describe Java data types
+A boolean variable has the values true or false.  A character in single quotes is a literal of type char.  A numeric literal with a decimal point is assumed to be of type double.  A numeric literal without a decimal point is normally an int, but the suffix L is used to specify a long.
+The correct answer is: false – boolean, ‘c’ – char, 38.0 – double, -197 – int, 16L – long
+
+Java math
+(8 - -3 * 5) / 6
+First, 3 is negated. Then, it is multiplied by 5, because multiplication takes precedence over subtraction. The result, -15, is subtracted from 8 to obtain 23. Then, this value is divided by 6, but because the numerator and denominator are both integers, integer division is performed, and the quotient is truncated to an integer to yield a final result of 3.
+The correct answer is: 3
+
+Order of libraries imported
+It does not matter which order libraries are imported.

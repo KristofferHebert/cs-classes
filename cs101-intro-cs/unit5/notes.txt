@@ -1,0 +1,2 @@
+Which of the following statements describes the proper use of while and do-while statements?
+A do-while statement is preferable when at least one iteration will always take place.
