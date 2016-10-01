@@ -1,0 +1,52 @@
+
+
+statements that may generate an exception should be enclosed in a try block. When something goes wrong, an exception object is created, and then a throw statement is used to pass the exception through the stack of function calls until an appropriate catch block is found, at which point the exception can be handled and execution can continue.
+The correct answer is: Object that contains information about an error – exception, Keyword for block containing statements that may generate an exception – try, Keyword used to report an error to the calling function – throw, Keyword for block used to handle an error and allow execution to continue – catch
+
+
+Fill in the blanks with the correct identifiers (no parentheses or other punctuation).  Answers are case-sensitive. 
+
+
+The Scanner class is used to parse input read from an input stream such as standard input. The nextLine method is one of many methods of the Scanner class; it returns a line of input from the stream as a String object.
+
+
+The correct answer is: Scanner, nextLine
+
+Consider the following code:
+
+String s1 = “Hello”;
+String s2 = String.format( “%s: %f %1$s”, s1, 5.0 / 3 );
+System.out.println( s2 );
+
+What output is displayed?
+
+
+The correct answer is: Hello: 1.666667 Hello
+
+Match each class or method with its purpose.
+
+The readLine method returns null when no more lines can be read from the input stream, so a boolean expression checking for the end of input should compare the return value of readLine to null.
+The correct answer is: null
+
+How does an Exception object differ from an Error object?
+
+The readLine method returns null when no more lines can be read from the input stream, so a boolean expression checking for the end of input should compare the return value of readLine to null.
+The correct answer is: null
+
+To write data to a file, first create a FileWriter object, specifying the filename at construction. Output is more efficient with fewer write operations working with larger amounts of data, so use a BufferedWriter object with the FileWriter object to improve efficiency. By constructing a PrintWriter object from the BufferedWriter object, one can write data to a file in a manner that automatically accounts for the differences between end-of-line character sequences on Windows, UNIX and Mac OS. Methods of these classes throw IOException objects if something goes wrong. When writing data, calling the flush method causes the data to actually be written to the disk. Finally, when writing is complete, the close method closes the file, after which writing cannot continue.
+The correct answer is: causes data to be written to disk – flush, accounts for different end-of-line conventions between operating systems – PrintWriter, terminates file-writing operations – close, makes output operations more efficient – BufferedWriter, supports output of data to a file on disk – FileWriter, prevents erroneous writing operations from crashing the program – IOException
+
+
+What happens when the nextInt method of class Scanner is called, and the next input is a letter instead of a digit or minus sign?
+
+
+The correct answer is: An InputMismatchException is thrown.
+
+
+Which of the following statements correctly describes the behavior of a finally block?
+
+The correct answer is: A finally block is always executed, but subsequent statements are only executed if there was no exception or if any exception was caught.
+
+
+This method is used to write a line of input to a specified file, which can be used here to write the line that has just been read using readLine.
+The correct answer is: printl
