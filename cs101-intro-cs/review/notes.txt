@@ -1,0 +1,135 @@
+CHPT 1
+
+What was the first modern computer?
+
+EIANC
+
+What is the decimal number of 1011010
+90
+
+What is an advantage of using a high level programming language
+The developer does not have come up with high detail machine instruction like garbage collection
+
+What is the advantage of OOP development
+
+OOP makes it cheaper to develop because development is faser
+
+What best describes a abstract
+
+Abstract does not allow objects of a prototype to be created
+
+What describes a java class
+ A Java class includes fields that represent the state of an object and methods used to work with that object.
+
+What is true about importing Java libraries
+
+Order does not matter
+
+What is the value of the following Java expression? Enter a numeric answer.
+3
+
+What is the equivilant to !(a < b || !((b < c) || (c < d)))
+a >= b && ( ( b < c ) || ( c < d ) )
+
+What is equivilant to !(x > 5 && y > 3)
+
+x <= 5 || y <= 3
+
+Choose the correct result and explanation for the evaluation of the following explanation: 
+The correct answer is: false, because 2 + 3 = 5 is not less than 5
+
+
+Choose the correct result and explanation for the evaluation of the following explanation: 
+
+Choose the correct result and explanation for the evaluation of the following explanation: 
+
+
+x = 2;
+boolean b = (x = 5) || (x > 6);
+
+What are the values of x and b after these statements are executed?
+
+ x = 5, b = true
+
+
+boolean b = (x < y) && ((x = ++y) > 4);
+x = 5, y = 2
+
+First x <= y is evaluated, and then y <= z is evaluated if and only if x <= y is true.
+
+&& is simular to || where if the first argument is false it does not evaluate the rest of the comparision its always false unless all true.
+
+The notation used to write relational and logical expressions in Java is
+infix
+
+
+ x <= 5 || y <= 3 
+
+
+void printsquare( double x )
+{
+    x = x * x;
+    System.out.println( “square: ” + x );
+}
+
+and the following code that calls it:
+
+double y = 5;
+printsquare( y );
+
+What is the value of y after the function printsquare is called? Enter a numeric answer.
+
+The value of y is copied to the value of x declared within printsquare. Although x is squared, this does not affect the value of y, because x and y are separate variables.
+The correct answer is: 5
+
+
+Consider the method declarations:
+
+int mymethod( int x, int y )
+
+double mymethod( int a, int b )
+
+These declarations are
+
+The correct answer is: Invalid because the parameter types are the same for both, making them ambiguous
+	
+The signature of a method consists of the following attributes:
+The correct answer is: the method name and the types of its parameters.
+
+
+
+The correct answer is: The return value of a method of type void is used.
+
+Which of the following Java statements is a correct declaration of an array of ten elements of type double?
+ double[] x = new double[10];
+
+Consider the statements:
+
+int[] x = new int[5];
+x[0] = 2;
+System.out.println(“Second element: ” + x[1]);
+
+Consider the following code fragment. Assume that x is a previously defined array of type int[]
+
+int max = 0;
+for ( int i = 0; i < x.length; i++ )
+    if ( x[i] > max )
+        max = x[i];
+
+Which of the following statements is true?
+
+The code may return an incorrect value for max in some cases.
+
+What value is printed?
+The correct answer is: 0
+
+Complete the following code fragment so that it uses an enhanced for loop to find the minimum of an array. Assume that x is a previously defined array of type int[]. 
+
+int val;
+min = x[0];
+for ( _______________ )
+    if ( val < min )
+        min = val;
+
+The correct answer is: val : x
+
